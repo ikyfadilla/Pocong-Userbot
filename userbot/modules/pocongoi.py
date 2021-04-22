@@ -26,11 +26,11 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.swemangap(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gea(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Tetaplah Sambat`")
+    await typew.edit("`Dia adalah`")
     sleep(3)
-    await typew.edit("`Jangan Semangat🤠`")
+    await typew.edit("`Si cantik yang manjah tapi cengeng 😍🤗❤️`")
 # Create by myself @localheart
